@@ -16,8 +16,10 @@ Listed below are the links for selected material for this course. All
 material are from [Software Carpentry](https://software-carpentry.org/)
 lessons.
 
-### Topics from
-[r-novice-gapminder](http://swcarpentry.github.io/r-novice-gapminder/):
+### Topics from r-novice-gapminder
+
+Selected topics from
+[r-novice-gapminder](http://swcarpentry.github.io/r-novice-gapminder/).
 
 Github repo: https://github.com/swcarpentry/r-novice-gapminder
 
@@ -150,8 +152,10 @@ Github repo: https://github.com/swcarpentry/r-novice-gapminder
     - "Save plots from RStudio using the 'Export' button."
     - "Use `write.table` to save tabular data."
 
-### Topics from
-[r-novice-inflammation](http://swcarpentry.github.io/r-novice-inflammation/):
+### Topics from r-novice-inflammation
+
+Selected topics from
+[r-novice-inflammation](http://swcarpentry.github.io/r-novice-inflammation/).
 
 Github repo: https://github.com/swcarpentry/r-novice-inflammation
 
