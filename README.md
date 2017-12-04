@@ -1,14 +1,13 @@
 # CODATA
 
 *Programming with R repo for [CODATA-RDA School of Research Data
-Science](http://www.ictp-saifr.org/?page_id=15270).
+Science](http://www.ictp-saifr.org/?page_id=15270).*
 
-5-6 Dec. 2017
+*5-6 Dec. 2017*
 
-ICTP South American Institute for Fundamental Research
+*ICTP South American Institute for Fundamental Research*
 
-IFT-UNESP
-*
+*IFT-UNESP*
 
 ## Resources
 
@@ -160,6 +159,81 @@ Selected topics from
 Github repo: https://github.com/swcarpentry/r-novice-inflammation
 
 2. Creating Functions
+  - Questions:
+    - "How do I make a function?"
+    - "How can I test my functions?"
+    - "How should I document my code?"
+  - Objectives:
+    - "Define a function that takes arguments."
+    - "Return a value from a function."
+    - "Test a function."
+    - "Set default values for function arguments."
+    - "Explain why we should divide programs into small, single-purpose
+    functions."
+  - Keypoints:
+    - "Define a function using `name <- function(...args...) {...body...}`."
+    - "Call a function using `name(...values...)`."
+    - "R looks for variables in the current stack frame before looking
+      for them at the top level."
+    - "Use `help(thing)` to view help for something."
+    - "Put comments at the beginning of functions to provide help for
+      that function."
+    - "Annotate your code!"
+    - "Specify default values for arguments when defining a function
+      using `name = value` in the argument list."
+    - "Arguments can be passed by matching based on name, by position,
+      or by omitting them (in which case the default value is used)."
 3. Analyzing Multiple Data Sets
+  - Questions:
+    - "How can I do the same thing to multiple data sets?"
+    - "How do I write a `for` loop?"
+  - Objectives:
+    - "Explain what a `for` loop does."
+    - "Correctly write `for` loops to repeat simple calculations."
+    - "Trace changes to a loop variable as the loop runs."
+    - "Trace changes to other variables as they are updated by a `for` loop."
+    - "Use a function to get a list of filenames that match a simple pattern."
+    - "Use a `for` loop to process multiple files."
+  - Keypoints:
+    - "Use `for (variable in collection)` to process the elements of a
+      collection one at a time."
+    - "The body of a `for` loop is surrounded by curly braces (`{}`)."
+    - "Use `length(thing)` to determine the length of something that
+      contains other values."
+    - "Use `list.files(path = \"path\", pattern = \"pattern\",
+      full.names = TRUE)` to create a list of files whose names match a
+      pattern."
 4. Making Choices
+  - Questions:
+    - "How do I make choices using `if` and `else` statements?"
+    - "How do I compare values?"
+    - "How do I save my plots to a PDF file?"
+  - Objectives:
+    - "Save plot(s) in a PDF file."
+    - "Write conditional statements with `if` and `else`."
+    - "Correctly evaluate expressions containing `&` ('and') and `|`
+    ('or')."
+  - Keypoints:
+    - "Save a plot in a pdf file using `pdf(\"name.pdf\")` and stop
+      writing to the pdf file with `dev.off()`."
+    - "Use `if (condition)` to start a conditional statement, `else if
+      (condition)` to provide additional tests, and `else` to provide a
+      default."
+      - "The bodies of conditional statements must be surrounded by
+        curly braces `{ }`."
+    - "Use `==` to test for equality."
+    - "`X & Y` is only true if both X and Y are true."
+    - "`X | Y` is true if either X or Y, or both, are true."
 15. Loops in R
+  - Questions:
+    - "How can I do the same thing multiple times more efficiently in R?"
+    - "What is vectorization?"
+    - "Should I use a loop or an `apply` statement?"
+  - Objectives:
+    - "Compare loops and vectorized operations."
+    - "Use the apply family of functions."
+  - Keypoints:
+    - "Where possible, use vectorized operations instead of `for` loops
+      to make code faster and more concise."
+    - "Use functions such as `apply` instead of `for` loops to operate
+      on the values in a data structure."
