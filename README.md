@@ -9,7 +9,7 @@ Science](http://www.ictp-saifr.org/?page_id=15270).*
 
 *IFT-UNESP*
 
-## Resources
+## Main resources
 
 Listed below are the links for selected material for this course. All
 material are from [Software Carpentry](https://software-carpentry.org/)
@@ -237,3 +237,9 @@ Github repo: https://github.com/swcarpentry/r-novice-inflammation
       to make code faster and more concise."
     - "Use functions such as `apply` instead of `for` loops to operate
       on the values in a data structure."
+
+## Other resources
+
+- Material for the classes from "Computational Statistics I" at UFPR:
+  http://leg.ufpr.br/~fernandomayer/aulas/ce083 (portuguese only)
+- Some databases: http://leg.ufpr.br/~fernandomayer/data/
