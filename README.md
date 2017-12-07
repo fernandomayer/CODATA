@@ -64,7 +64,7 @@ Github repo: https://github.com/swcarpentry/r-novice-gapminder
     - "To be aware of the different types of data."
     - "To begin exploring data frames, and understand how they are
       related to vectors, factors and lists."
-      - "To be able to ask questions from R about the type, class, and
+    - "To be able to ask questions from R about the type, class, and
       structure of an object."
   - Keypoints:
     - "Use `read.csv` to read tabular data in R."
